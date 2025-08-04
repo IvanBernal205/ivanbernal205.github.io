@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Maker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="icon" type="image/png" href="camilo_icon.jpeg">
+</head>
+<body class="dark-mode">
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="camilo_icon.jpeg" alt="Logo Horario Maker" class="nav-logo-img">
+            <span>Horario Maker</span>
+        </div>
+        <div class="nav-controls"> <!-- Nuevo contenedor para los enlaces y el toggle -->
+            <ul>
+                <li><a href="#" class="nav-link active" data-target="home"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#" class="nav-link" data-target="pdf-section"><i class="fas fa-file-pdf"></i> Programación PDF</a></li>
+                <li><a href="#" class="nav-link" data-target="generator-section"><i class="fas fa-cogs"></i> Generador</a></li>
+                <li><a href="#" class="nav-link" data-target="favorites-section"><i class="fas fa-heart"></i> Favoritos</a></li>
+            </ul>
+            <!-- Interruptor El Diablo movido aquí, fuera del ul principal de navegación -->
+            <div class="nav-diablo-toggle-container"> 
+                <label for="diablo-mode-switch-nav" class="diablo-switch-nav">
+                    <input type="checkbox" id="diablo-mode-switch-nav">
+                    <span class="slider-nav">
+                        <span class="slider-text normal-text">Normal</span>
+                        <span class="slider-text diablo-text"><i class="fas fa-fire"></i> Diablo </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+<main>
+    <section id="home" class="page-section active">
+        <div class="content-center">
+            <h1>By</h1>
+            <h1 class="yo">YO!!!</h1>
+            <p class="image-placeholder">* imagen de fondo *</p>
+        </div>
+    </section>
+
+    <section id="pdf-section" class="page-section">
+        <h2>Programación Académica PDF</h2>
+        <div class="content-center">
+            <a href="https://www.escuelaing.edu.co/es/estudiantes/instructivos-elaboracion-de-horarios/" target="_blank" class="pdf-link">Link</a>
+            <p class="pdf-title">Programación Académica</p>
+            <p class="pdf-semester">2025-2</p>
+            <p class="image-placeholder-small">* imagen de fondo *</p>
+        </div>
+    </section>
+
+    <section id="generator-section" class="page-section">
+        <div class="generator-layout">
+            <aside class="subject-selector-container">
+                <h3><i class="fas fa-book-open"></i> Selecciona tus Materias</h3>
+                <div id="subjectCheckboxes"></div>
+                <button type="button" id="clear-subject-selection" class="clear-btn">Limpiar Materias</button>
+                
+                <!-- El interruptor El Diablo fue MOVIDO a la NAVBAR -->
+
+                <button type="button" id="generate-btn" class="generate-btn">
+                    <i class="fas fa-magic"></i> Generar Horarios
+                </button>
+                <div id="loading-indicator" style="display: none;">
+                    <i class="fas fa-spinner fa-spin"></i> Generando horarios...
+                </div>
+            </aside>
+
+            <div class="options-wrapper">
+                <div class="options-display-container" id="professorOptionsContainer">
+                    <p class="placeholder-text">Selecciona materias para ver opciones de profesores y horarios.</p>
+                </div>
+                <button type="button" id="clear-professor-selection" class="clear-btn" style="display:none; margin-top:10px;">Limpiar Opciones de Profesores</button>
+            </div>
+        </div>
+
+        <div class="generated-schedules-container">
+            <h2><i class="fas fa-calendar-alt"></i> Horarios Válidos Generados</h2>
+            <div id="generatedSchedulesOutput"></div>
+        </div>
+    </section>
+
+    <section id="favorites-section" class="page-section">
+        <h2><i class="fas fa-star"></i> Tus horarios Favoritos</h2>
+        <div id="favoritesOutput"></div>
+    </section>
+</main>
+
+<div id="nameFavoriteModal" class="modal-overlay">
+    <div class="modal-content">
+        <h3 id="modalTitle">Guardar Horario Favorito</h3>
+        <input type="text" id="modalScheduleNameInput" placeholder="Nombre del horario">
+        <div class="modal-actions">
+            <button id="modalSaveBtn" class="modal-btn modal-save-btn"><i class="fas fa-save"></i> Guardar</button>
+            <button id="modalCancelBtn" class="modal-btn modal-cancel-btn"><i class="fas fa-times"></i> Cancelar</button>
+        </div>
+    </div>
+</div>
+
+<div id="classCodesModal" class="modal-overlay">
+    <div class="modal-content">
+        <h3 id="classCodesModalTitle">Códigos de Clase del Horario</h3>
+        <div id="classCodesModalBody" class="class-codes-list">
+            <!-- Los códigos se insertarán aquí por JS -->
+        </div>
+        <div class="modal-actions">
+            <button id="classCodesModalCloseBtn" class="modal-btn modal-cancel-btn"><i class="fas fa-times"></i> Cerrar</button>
+        </div>
+    </div>
+</div>
+
+<script src="data.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
