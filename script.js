@@ -81,12 +81,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        const mainAccordionCodes = new Set(["cald", "alli", "hgcl", "mpin"]);
+        const mainAccordionCodes = new Set([]);
         const additionalAccordionCodes = new Set([
-            "artt", "clys", "codi", "ecys", "egi3", "egi4",
-            "enna", "escu", "ftec", "goci", "grap", "hspc",
-            "itsw", "psoc", "cipp", "fupr", "hemu", "gpin",
-            "mafi", "fuce", "sdic", "rolego"
         ]);
 
         const normalSubjectsFragment = document.createDocumentFragment();
