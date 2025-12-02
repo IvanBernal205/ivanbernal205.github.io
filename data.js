@@ -5,7 +5,23 @@ const SUBJECT_NAMES = {
     "prye": "Probabilidad y Estadística",
     "ddya": "Diseño de Datos y Algoritmos",
     "tpyc": "Teoría de la Programación y la Computación",
-    
+    "fis2": "Física General 2",
+    "labfis2": "Laboratorio de física",
+
+    // ELECTIVAS
+    "yeex": "Y... ¿Eso lo puede hacer Excel?",
+    "gean": "Geometría analítica",
+    "mafi": "Matemáticas Financieras",
+    "egi4": "Inglés 4",
+
+
+    //sofia 
+    "cira": "Circuitos Eléctricos Avanzados",
+    "tmdn": "Termodinámica",
+    "tmdn_lab": "Termo lab",
+    "dapc": "Dibujo Asistido Por Computador",
+    "fuec": "Fundamentos Económicos",
+    "elan": "Electrónica Analógica"
 };
 
 const HORARIOS_LABELS = [
@@ -89,10 +105,120 @@ const lista = [
 ],
 
 [
+  ['fis2', 'SANDRA YANETH MOTTA GARCIA', '4645', [1, 3], [2, 3], [3, 3], 4],
+  ['fis2', 'ANDRES FELIPE LONDOÑO SIERRA', '4257', [0, 5], [2, 5], [3, 5], 3.8],
+  ['fis2', 'JUAN DAVID BETANCUR RIOS', '4886', [1, 1], [2, 1], [3, 1], 0],
+  ['fis2', 'TAMARA JOHANA LEON ZABALA', '4349', [1, 1], [2, 1], [3, 1], 2],
+  ['fis2', 'CARLOS ANDRES COLLAZOS MORALES', '4774', [0, 2], [2, 2], [4, 2], 4],
+  ['fis2', 'GUILLERMO ALFONSO ROJAS SANCHEZ', '4868', [1, 1], [2, 1], [3, 1], 3.2],
+  ['fis2', 'ELISEO PEREZ MEDINA', '4857', [0, 4], [2, 4], [3, 4], 3],
+  ['fis2', 'LUIS ALEJANDRO LADINO GASPAR', '4906', [0, 4], [1, 4], [3, 4], 4.1],
+  ['fis2', 'LUIS ALEJANDRO LADINO GASPAR', '4354', [0, 2], [1, 2], [3, 2], 4.1],
+  ['fis2', 'TAMARA JOHANA LEON ZABALA', '4869', [1, 3], [2, 3], [3, 3], 2],
+  ['fis2', 'LUIS ALEJANDRO LADINO GASPAR', '4355', [1, 1], [2, 1], [3, 1], 4.1],
+  ['fis2', 'ANDRES FELIPE LONDOÑO SIERRA', '4194', [0, 4], [2, 4], [3, 4], 3.8],
+  ['fis2', 'HEINDEL RICARDO OTERO AREVALO', '4935', [0, 2], [2, 2], [3, 2], 0],
+  ['fis2', 'JORGE ENRIQUE CLAVIJO RAMIREZ', '6294', [0, 5], [2, 5], [3, 5], 4]
+],
+
+[
+  ['labfis2', 'RAFAEL GUZMAN ESCANDON', '4226', [3, 7], 0],
+  ['labfis2', 'CECILIO SILVEIRA CABRERA', '4291', [4, 1], 0],
+  ['labfis2', 'HEINDEL RICARDO OTERO AREVALO', '4229', [2, 3], 0],
+  ['labfis2', 'ELISEO PEREZ MEDINA', '4940', [4, 3], 3],
+  ['labfis2', 'ELISEO PEREZ MEDINA', '4772', [1, 1], 3],
+  ['labfis2', 'GUILLERMO ALFONSO ROJAS SANCHEZ', '4274', [4, 4], 3.2],
+  ['labfis2', 'RAUL ALBERTO RUIZ FANDIÑO', '4254', [3, 5], 5],
+  ['labfis2', 'RAUL ALBERTO RUIZ FANDIÑO', '4643', [2, 5], 5],
+  ['labfis2', 'RAUL ALBERTO RUIZ FANDIÑO', '4644', [1, 6], 5],
+  ['labfis2', 'WILLIAM ALEXANDER ALMONACID GUERRERO', '4823', [2, 5], 4],
+  ['labfis2', 'RAFAEL GUZMAN ESCANDON', '4278', [1, 6], 0],
+  ['labfis2', 'TAMARA JOHANA LEON ZABALA', '4040', [4, 1], 2],
+  ['labfis2', 'HEINDEL RICARDO OTERO AREVALO', '4881', [1, 2], 0],
+  ['labfis2', 'GUILLERMO ALFONSO ROJAS SANCHEZ', '4067', [1, 3], 3.2],
+  ['labfis2', 'DANIEL ALEJANDRO MOLANO MORENO', '4322', [5, 1], 4],
+  ['labfis2', 'DANIEL ALEJANDRO MOLANO MORENO', '4338', [5, 3], 4]
+],
+
+[
   ['yeex', 'HECTOR JACKSON OCAMPO ARIZA', '4213', [0, 6], [3, 6], 2.3]
 ],
 
 [
-  ['mafi', 'MARIA CONSTANZA TORRES TAMAYO', '4391', [1, 5], [3, 5], 0]
+  ['mafi', 'MARIA CONSTANZA TORRES TAMAYO', '4391', [2, 5], [3, 5], 0]
+],
+
+[
+  ['gean', 'HELENA DULCEY HERNANDEZ', '5230', [2, 3], [4, 3], 0]
+],
+
+
+
+[
+  ['egi4', 'JOSE CAMILO VASQUEZ CARO', '5213', [0, 4], [2, 5], [3, 5], 0],
+  ['egi4', 'MILENA MOSQUERA MEJIA', '4221', [0, 2], [2, 2], [3, 2], 0],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5179', [1, 4], [3, 4], [4, 4], 0],
+  ['egi4', 'SERGIO ENCISO MARIN', '5176', [0, 4], [2, 4], [3, 4], 0],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5215', [1, 6], [2, 6], [3, 6], 0],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '4294', [0, 1], [3, 1], [4, 1], 0],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '5178', [0, 4], [3, 3], [4, 3], 0],
+  ['egi4', 'MAURICIO ANDRES RIVERA JIMENEZ', '5180', [0, 7], [2, 7], [3, 7], 0],
+  ['egi4', 'SERGIO ENCISO MARIN', '5216', [2, 2], [3, 2], [4, 2], 0],
+  ['egi4', 'KINGA ESLAVA BULLA', '5177', [1, 1], [2, 0], [3, 1], 0],
+  ['egi4', 'KINGA ESLAVA BULLA', '5214', [1, 4], [2, 4], [4, 4], 0]
+],
+
+[
+  ['cira', 'LUIS FRANCISCO REYES GONZALEZ', '4755', [1, 0], [1, 1], [1, 2], 0],
+  // ['cira', 'LUIS FRANCISCO REYES GONZALEZ', '4754', [1, 2], 0]
+],
+
+[
+  ['tmdn', 'HENDRICK VLADIMIR LOPEZ CHAVEZ', '5051', [0, 1], [2, 1], 0],
+  ['tmdn', 'LUIS MAURICIO DAVILA GARCIA', '5053', [0, 2], [2, 3], 0],
+  ['tmdn', 'JAIR LEOPOLDO LOAIZA BERNAL', '5052', [1, 7], [3, 7], 0],
+  ['tmdn', 'HENDRICK VLADIMIR LOPEZ CHAVEZ', '4033', [0, 2], [2, 3], 0]
+],
+
+[
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5055', [1, 6], 0],
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5058', [4, 4], 0],
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5059', [4, 5], 0],
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5054', [2, 5], 0],
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5056', [3, 5], 0],
+  ['tmdn_lab', 'JAIR LEOPOLDO LOAIZA BERNAL', '5057', [4, 6], 0],
+  ['tmdn_lab', 'HENDRICK VLADIMIR LOPEZ CHAVEZ', '4286', [1, 0], 0],
+  ['tmdn_lab', 'HENDRICK VLADIMIR LOPEZ CHAVEZ', '4867', [0, 0], 0],
+  ['tmdn_lab', 'HENDRICK VLADIMIR LOPEZ CHAVEZ', '4197', [3, 0], 0]
+],
+
+[
+  ['dapc', 'WILLIAM RICARDO AGUILAR PIÑA', '4098', [0, 5], [1, 5], [1, 4], 0],
+  // ['dapc', 'WILLIAM RICARDO AGUILAR PIÑA', '4099', , 0]
+],
+
+[
+  ['fuec', 'JOSE FERNANDO CARDENAS GARCIA', '5070', [1, 2], [2, 3], 0],
+  ['fuec', 'JOHN JAIRO GOMEZ RIOS', '5071', [1, 3], [3, 3], 0],
+  ['fuec', 'LUIS FELIPE CAMACHO CARVAJAL', '5069', [3, 0], [4, 0], 0],
+  ['fuec', 'DAVID FELIPE HOLGUIN LOZANO', '5067', [1, 4], [2, 3], 0],
+  ['fuec', 'JOHN JAIRO GOMEZ RIOS', '5068', [1, 1], [3, 1], 0],
+  ['fuec', 'LUZ ANGELA TRIVIÑO RODRIGUEZ', '5072', [1, 5], [2, 5], 0],
+  ['fuec', 'JOHN JAIRO GOMEZ RIOS', '5073', [1, 2], [3, 2], 0],
+  ['fuec', 'SEBASTIAN AREVALO AVELLANEDA', '5074', [2, 2], [4, 2], 0],
+  ['fuec', 'JOSE FERNANDO CARDENAS GARCIA', '4150', [2, 2], [4, 2], 0],
+  ['fuec', 'JOSE FERNANDO CARDENAS GARCIA', '4324', [1, 3], [3, 3], 0],
+  ['fuec', 'MARIA HELENA RAMIREZ TOLOSA', '4325', [1, 1], [3, 1], 0],
+  ['fuec', 'MARIA HELENA RAMIREZ TOLOSA', '4822', [1, 2], [3, 2], 0],
+  ['fuec', 'JULIAN ALBERTO GUTIERREZ LOPEZ', '4266', [1, 4], [2, 3], 0],
+  ['fuec', 'SEBASTIAN AREVALO AVELLANEDA', '4326', [1, 5], [2, 5], 0]
+],
+
+[
+  ['elan', 'JESUS FIDERNAN BARRERA COBOS', '4747', [0, 0], [3, 0], [4, 0], 0],
+  ['elan', 'HERNAN PAZ PENAGOS', '4748', [1, 0], [3, 1], [4, 0], 0],
+  // ['elan', 'JESUS FIDERNAN BARRERA COBOS', '4750', [4, 0], 0],
+  // ['elan', 'HERNAN PAZ PENAGOS', '4749', [4, 0], 0]
 ]
+
 ];

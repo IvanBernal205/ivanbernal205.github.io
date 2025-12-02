@@ -81,8 +81,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        const mainAccordionCodes = new Set([]);
-        const additionalAccordionCodes = new Set([
+        const mainAccordionCodes = new Set(["cira","tmdn","tmdn_lab","dapc","fuec","elan"]);
+        const additionalAccordionCodes = new Set(["yeex","mafi","gean","egi4"
         ]);
 
         const normalSubjectsFragment = document.createDocumentFragment();
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const hasMainMaterias = Object.keys(uniqueSubjects).some(code => mainAccordionCodes.has(code));
         if (hasMainMaterias) {
-            mainAccordionItem = createAccordionStructure('mainSubjectsAccordion', 'SI');
+            mainAccordionItem = createAccordionStructure('mainSubjectsAccordion', 'Shofia');
         }
         const hasAdditionalMaterias = Object.keys(uniqueSubjects).some(code => additionalAccordionCodes.has(code));
         if (hasAdditionalMaterias) {
