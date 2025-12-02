@@ -155,17 +155,17 @@ const lista = [
 
 
 [
-  ['egi4', 'JOSE CAMILO VASQUEZ CARO', '5213', [0, 4], [2, 5], [3, 5], 0],
-  ['egi4', 'MILENA MOSQUERA MEJIA', '4221', [0, 2], [2, 2], [3, 2], 0],
-  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5179', [1, 4], [3, 4], [4, 4], 0],
-  ['egi4', 'SERGIO ENCISO MARIN', '5176', [0, 4], [2, 4], [3, 4], 0],
-  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5215', [1, 6], [2, 6], [3, 6], 0],
-  ['egi4', 'NAYIBE ESLAIT TORRES', '4294', [0, 1], [3, 1], [4, 1], 0],
-  ['egi4', 'NAYIBE ESLAIT TORRES', '5178', [0, 4], [3, 3], [4, 3], 0],
-  ['egi4', 'MAURICIO ANDRES RIVERA JIMENEZ', '5180', [0, 7], [2, 7], [3, 7], 0],
-  ['egi4', 'SERGIO ENCISO MARIN', '5216', [2, 2], [3, 2], [4, 2], 0],
-  ['egi4', 'KINGA ESLAVA BULLA', '5177', [1, 1], [2, 0], [3, 1], 0],
-  ['egi4', 'KINGA ESLAVA BULLA', '5214', [1, 4], [2, 4], [4, 4], 0]
+  ['egi4', 'JOSE CAMILO VASQUEZ CARO', '5213', [0, 4], [2, 5], [3, 5], 3.5],
+  ['egi4', 'MILENA MOSQUERA MEJIA', '4221', [0, 2], [2, 2], [3, 2], 3.4],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5179', [1, 4], [3, 4], [4, 4], 4.2],
+  ['egi4', 'SERGIO ENCISO MARIN', '5176', [0, 4], [2, 4], [3, 4], 4],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5215', [1, 6], [2, 6], [3, 6], 4.2],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '4294', [0, 1], [3, 1], [4, 1], 3.5],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '5178', [0, 4], [3, 3], [4, 3], 3.5],
+  ['egi4', 'MAURICIO ANDRES RIVERA JIMENEZ', '5180', [0, 7], [2, 7], [3, 7], 4],
+  ['egi4', 'SERGIO ENCISO MARIN', '5216', [2, 2], [3, 2], [4, 2], 4.1],
+  ['egi4', 'KINGA ESLAVA BULLA', '5177', [1, 1], [2, 0], [3, 1], 3],
+  ['egi4', 'KINGA ESLAVA BULLA', '5214', [1, 4], [2, 4], [4, 4], 3]
 ],
 
 [
