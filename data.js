@@ -13,6 +13,7 @@ const SUBJECT_NAMES = {
     "gean": "Geometría analítica",
     "mafi": "Matemáticas Financieras",
     "egi4": "Inglés 4",
+    "egi3": "Inglés 3",
 
 
     //sofia 
@@ -155,17 +156,17 @@ const lista = [
 
 
 [
-  ['egi4', 'JOSE CAMILO VASQUEZ CARO', '5213', [0, 4], [2, 5], [3, 5], 3.5],
-  ['egi4', 'MILENA MOSQUERA MEJIA', '4221', [0, 2], [2, 2], [3, 2], 3.4],
-  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5179', [1, 4], [3, 4], [4, 4], 4.2],
-  ['egi4', 'SERGIO ENCISO MARIN', '5176', [0, 4], [2, 4], [3, 4], 4],
-  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5215', [1, 6], [2, 6], [3, 6], 4.2],
-  ['egi4', 'NAYIBE ESLAIT TORRES', '4294', [0, 1], [3, 1], [4, 1], 3.5],
-  ['egi4', 'NAYIBE ESLAIT TORRES', '5178', [0, 4], [3, 3], [4, 3], 3.5],
-  ['egi4', 'MAURICIO ANDRES RIVERA JIMENEZ', '5180', [0, 7], [2, 7], [3, 7], 4],
-  ['egi4', 'SERGIO ENCISO MARIN', '5216', [2, 2], [3, 2], [4, 2], 4.1],
-  ['egi4', 'KINGA ESLAVA BULLA', '5177', [1, 1], [2, 0], [3, 1], 3],
-  ['egi4', 'KINGA ESLAVA BULLA', '5214', [1, 4], [2, 4], [4, 4], 3]
+  ['egi4', 'JOSE CAMILO VASQUEZ CARO', '5213', [0, 4], [2, 5], [3, 5], 0],
+  ['egi4', 'MILENA MOSQUERA MEJIA', '4221', [0, 2], [2, 2], [3, 2], 0],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5179', [1, 4], [3, 4], [4, 4], 0],
+  ['egi4', 'SERGIO ENCISO MARIN', '5176', [0, 4], [2, 4], [3, 4], 0],
+  ['egi4', 'ANA MARIA RONDEROS RAMIREZ', '5215', [1, 6], [2, 6], [3, 6], 0],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '4294', [0, 1], [3, 1], [4, 1], 0],
+  ['egi4', 'NAYIBE ESLAIT TORRES', '5178', [0, 4], [3, 3], [4, 3], 0],
+  ['egi4', 'MAURICIO ANDRES RIVERA JIMENEZ', '5180', [0, 7], [2, 7], [3, 7], 0],
+  ['egi4', 'SERGIO ENCISO MARIN', '5216', [2, 2], [3, 2], [4, 2], 0],
+  ['egi4', 'KINGA ESLAVA BULLA', '5177', [1, 1], [2, 0], [3, 1], 0],
+  ['egi4', 'KINGA ESLAVA BULLA', '5214', [1, 4], [2, 4], [4, 4], 0]
 ],
 
 [
@@ -219,6 +220,21 @@ const lista = [
   ['elan', 'HERNAN PAZ PENAGOS', '4748', [1, 0], [3, 1], [4, 0], 0],
   // ['elan', 'JESUS FIDERNAN BARRERA COBOS', '4750', [4, 0], 0],
   // ['elan', 'HERNAN PAZ PENAGOS', '4749', [4, 0], 0]
+],
+
+[
+  ['egi3', 'MILENA MOSQUERA MEJIA', '5173', [0, 6], [1, 6], [2, 6], 0],
+  ['egi3', 'LUIS JAVIER RAMIREZ ALFORD', '4045', [1, 0], [3, 0], [4, 0], 0],
+  ['egi3', 'SERGIO ENCISO MARIN', '5171', [0, 6], [3, 6], [4, 6], 0],
+  ['egi3', 'ANA MARIA RONDEROS RAMIREZ', '5167', [1, 5], [2, 4], [3, 5], 0],
+  ['egi3', 'NICOLAS RICO ROJAS', '5174', [2, 1], [3, 1], [4, 1], 0],
+  ['egi3', 'NAYIBE ESLAIT TORRES', '5168', [0, 0], [3, 0], [4, 0], 0],
+  ['egi3', 'JOSE CAMILO VASQUEZ CARO', '5169', [0, 2], [2, 2], [3, 2], 0],
+  ['egi3', 'LUIS JAVIER RAMIREZ ALFORD', '5172', [0, 1], [2, 1], [3, 1], 0],
+  ['egi3', 'KINGA ESLAVA BULLA', '5175', [0, 1], [2, 1], [4, 1], 0],
+  ['egi3', 'NICOLAS RICO ROJAS', '5170', [2, 3], [3, 3], [4, 3], 0],
+  ['egi3', 'NINFA MARTINEZ ROCHA', '4872', [1, 0], [3, 0], [4, 0], 0],
+  ['egi3', 'NINFA MARTINEZ ROCHA', '6160', [1, 1], [3, 1], [4, 1], 0]
 ]
 
 ];

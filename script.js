@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const mainAccordionCodes = new Set(["cira","tmdn","tmdn_lab","dapc","fuec","elan"]);
-        const additionalAccordionCodes = new Set(["yeex","mafi","gean","egi4"
+        const additionalAccordionCodes = new Set(["yeex","mafi","gean","egi4","egi3"
         ]);
 
         const normalSubjectsFragment = document.createDocumentFragment();
