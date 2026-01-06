@@ -45,7 +45,7 @@ const lista = [
   ['calv', 'JOSE ISRAEL MERCHAN HERRERA', '4617', [1, 2], [2, 2], [3, 2], [4, 2], 4.3],
   ['calv', 'CARLOS ALBERTO CAÑON RINCON', '4620', [1, 0], [2, 0], [3, 0], [4, 0], 4.4],
   ['calv', 'CARLOS ALBERTO CAÑON RINCON', '4293', [0, 1], [2, 1], [3, 1], [4, 1], 4.4],
-  ['calv', 'OSCAR ANTONIO PULIDO CARDOZO', '4616', [0, 5], [2, 5], [3, 5], [4, 5], 3.5],
+  ['calv', 'LIDA BUITRAGO GARCIA', '4616', [1, 3], [2, 3], [3, 3], [4, 3], 3.5],
   ['calv', 'CARLOS SNEYDER OTALORA ALDANA', '4313', [1, 3], [2, 3], [3, 3], [4, 3], 3.3]
 ],
 
@@ -59,12 +59,19 @@ const lista = [
   ['fupr', 'JOSE ARTURO RODRIGUEZ', '4307', [1, 5], [3, 5], 3.8],
   ['fupr', 'CESAR AUGUSTO LEAL CORONADO', '4828', [0, 1], [2, 1], 4.3],
   ['fupr', 'CESAR AUGUSTO LEAL CORONADO', '4817', [0, 2], [2, 2], 4.3],
-  ['fupr', 'LINA MARIA GOMEZ MONTENEGRO', '4280', [1, 1], [3, 1], 1],
   ['fupr', 'ERIKA SOFIA OLAYA ESCOBAR', '4849', [0, 1], [2, 1], 4],
-  ['fupr', 'LAURA CATALINA HERRERA CORREA', '4072', [2, 0], [3, 0], 3.5],
+  // ['fupr', 'LAURA CATALINA HERRERA CORREA', '4072', [2, 0], [3, 0], 3.5],
   ['fupr', 'JOSE LUIS LOPEZ CANO', '4041', [5, 0], [5, 1], 1],
-  ['fupr', 'JOSE ARTURO RODRIGUEZ', '5983', [0, 4], [2, 4], 3.8],
-  ['fupr', 'JOSE ARTURO RODRIGUEZ', '5985', [1, 1], [3, 1], 3.8]
+  // ['fupr', 'JOSE ARTURO RODRIGUEZ', '5983', [0, 4], [2, 4], 3.8],
+  ['fupr', 'JOSE ARTURO RODRIGUEZ', '5985', [1, 1], [3, 1], 3.8],
+
+  ['fupr', 'ERIKA SOFIA OLAYA ESCOBAR', '5983', [0, 4], [2, 4], 4],
+  ['fupr', 'LINA MARIA GOMEZ MONTENEGRO', '6323', [1, 5], [3, 5], 1],
+  ['fupr', 'LINA MARIA GOMEZ MONTENEGRO', '6324', [0, 2], [2, 3], 1],
+  ['fupr', 'MARTHA EDITH ROLON RAMIREZ', '6325', [0, 4], [3, 3], 0],
+  ['fupr', 'JOSE LUIS LOPEZ CANO', '4072', [2, 0], [3, 0], 1],
+  ['fupr', 'JOSE LUIS LOPEZ CANO', '6322', [0, 0], [0, 1], 1],
+  ['fupr', 'LINA MARIA GOMEZ MONTENEGRO', '4280', [3, 1], [1, 1], 1]
 ],
 
 [
@@ -73,7 +80,11 @@ const lista = [
   ['prye', 'CAMILA REYES BAQUERO', '4614', [0, 4], [1, 4], [2, 4], [3, 4], 1],
   ['prye', 'GUSTAVO SANTOS VARGAS', '4613', [1, 2], [2, 2], [3, 2], [4, 2], 3.8],
   ['prye', 'OSCAR JAVIER PACHECO PEREZ', '4609', [0, 5], [2, 5], [3, 5], [4, 5], 3.8],
-  ['prye', 'NICOLAS MARCIALES PARRA', '4263', [0, 4], [1, 4], [3, 4], [4, 4], 4]
+  ['prye', 'NICOLAS MARCIALES PARRA', '4263', [0, 4], [1, 4], [3, 4], [4, 4], 4],
+
+  ['prye', 'OSCAR JAVIER PACHECO PEREZ', '6345', [0, 7], [1, 7], [2, 7], [3, 7], 3.8],
+  ['prye', 'GUSTAVO SANTOS VARGAS', '6307', [0, 1], [2, 1], [3, 1], [4, 1], 3.8],
+  ['prye', 'Comodin', '6308', [0, 5], [2, 5], [3, 5], [4, 5], 3.8]
 ],
 
 [
